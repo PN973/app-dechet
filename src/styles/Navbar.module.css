@@ -1,0 +1,8 @@
+.navLink {
+ display: flex;
+ align-items: center;
+}
+
+.icone {
+ margin-right: 10px;
+}

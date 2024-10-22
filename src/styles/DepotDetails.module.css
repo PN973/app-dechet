@@ -1,0 +1,148 @@
+.Depot {
+ width: 210mm;
+ min-height: 227mm;
+ padding: 20mm;
+ margin: 10mm auto;
+ /*border: 1px solid #ccc;*/
+ border-radius: 5px;
+ background: white;
+ /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ top: 0;
+}
+
+.footer {
+ margin-top: 3%;
+}
+
+.footer p {
+ line-height: 0;
+ text-align: center;
+ font-size: 11px;
+}
+
+.loaderComp {
+ display: flex;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.custom-table {
+ border: 4px solid #ccc;
+}
+
+.peseLine {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 15px 0;
+}
+
+.peseLine h6 {
+ font-weight: bold;
+}
+
+.customCheck {
+ display: flex;
+ gap: 5px;
+}
+
+
+.darkImage {
+ filter: brightness(2);
+ width: 100%;
+ height: auto;
+ /* Ajustez la valeur pour foncer l'image */
+}
+
+.btnList {
+ display: flex;
+ gap: 15px;
+}
+
+
+.table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-bottom: 5px;
+}
+
+.tableTotal {
+ width: 30%;
+ border-collapse: collapse;
+ margin-bottom: 5px;
+}
+
+.tableTotal th,
+.tableTotal td {
+ border: 1px solid #ccc;
+ padding: 10px;
+ text-align: left;
+}
+
+.tableTotal th {
+ background-color: #f5f5f5;
+}
+
+.table th,
+.table td {
+ border: 1px solid #ccc;
+ padding: 10px;
+ text-align: left;
+}
+
+.table th {
+ background-color: #f5f5f5;
+}
+
+.total {
+ display: flex;
+ flex-direction: row-reverse;
+ margin-top: 20px;
+}
+
+.listeLeft {
+ list-style: none;
+ text-align: left;
+ margin: 0;
+ padding: 0;
+}
+
+.listeLeft span {
+ color: black;
+ font-weight: bold;
+}
+
+.listeRight {
+ list-style: none;
+ text-align: right;
+}
+
+
+.titleBordered {
+ text-align: center;
+ padding: 5px 20px;
+ border: 1px solid black;
+ font-weight: bold;
+ margin: 4px;
+}
+
+@media print {
+ .titleBordered {
+  text-align: center;
+  padding: 5px 20px;
+  border: 1px solid black;
+  font-weight: bold;
+ }
+}

@@ -1,0 +1,28 @@
+.navLink {
+ color: #fff;
+ font-size: 18px;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+}
+
+.subNavLink {
+ color: #0B1426;
+ font-size: 16;
+ font-weight: bold
+}
+
+.icone {
+ margin-right: 10px;
+}
+
+.sideNav{
+ display: block;
+}
+
+@media screen and (max-width: 960px) {
+
+ .sideNav{
+  display: none;
+ }
+}

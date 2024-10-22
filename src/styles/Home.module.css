@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.centeredButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

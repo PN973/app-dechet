@@ -1,0 +1,24 @@
+.cardBox {
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+
+.cardComp {
+ width: 30%;
+}
+
+@media screen and (max-width: 960px) {
+
+ .cardBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ 
+ .cardComp {
+  width: 100%;
+ }
+
+
+}
